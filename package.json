@@ -1,0 +1,8 @@
+{
+    "name": "USBPort - Adafruit Pygamer",
+    "version": "1.0",
+    "description": "USB communication for the Adafruit Pygamer",
+    "dependencies": {},
+    "files": ["usb.ts", "usb.cpp"],
+    "main": "usb.ts"
+}
