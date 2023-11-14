@@ -3,9 +3,9 @@
 namespace USBPort {
 
 // Wrapper class for USB communication
-class USBCom {
+class USBPort {
 public:
-    USBCom() {
+    USBPort() {
         // Add initialization code for USB communication
         // This is a placeholder and needs to be adapted based on the target device
     }
@@ -24,7 +24,7 @@ public:
 };
 
 // Global instance of the USBCommunication class
-USBCom usb;
+USBPort usb;
 
 // Wrapper function to send a string over USB
 // This function will be exposed to TypeScript
@@ -38,4 +38,4 @@ StringData* receiveString() {
     return PXT_STRING_RET(usb.receiveString());
 }
 
-} // namespace usb
+} // namespace USBPort
